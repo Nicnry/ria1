@@ -1,0 +1,15 @@
+img{
+    display: none;
+    max-width: 550px;
+    margin-bottom: 25px;
+    position: absolute;
+    margin-top: 50px;
+}
+img.display{
+    display: block;
+}
+
+.btn{
+    display: inline-block;
+    margin-right: 15px;
+}
