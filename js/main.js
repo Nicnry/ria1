@@ -6,7 +6,7 @@
 *
 */
 
-//Check the document is loaded
+//Check if the document is loaded
 $( document ).ready( function () {
 
   //Start plugin 
@@ -14,6 +14,5 @@ $( document ).ready( function () {
     //Do something here
   };
 
-  //Plugin use
   $( 'img' ).slide();
 });

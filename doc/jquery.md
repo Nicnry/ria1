@@ -10,11 +10,11 @@ Le lien avec RIA n'est pas très très fort, mais il permet de rajouter quelque 
 ## Description de la problématique et du contexte
 
 ### Pourquoi faire un plugin ?
-L'utilisation d'un plugin a pour but de permettre une portabilité de notre fonction et réduire les conflits avec notre code à nous.
-Le code doit être fait pour être utilisé sur différents sites et avoir le moins de modifications possible a faire. Notre code devrait donc fonctionner sur tout les sites et nous évitons de recréer notre fonction.
+L'utilisation d'un plugin à pour but de permettre une portabilité de notre fonction et réduire les conflits avec notre code.
+Le code doit être fait pour être utilisé sur différents sites et avoir le moins de modifications possible à effectuer. Notre code devrait donc fonctionner sur tout les sites et nous évitons de recréer notre fonction.
 
 ### Pourquoi un slider ?
-En effet, un slider n'est pas "révolutionnaire" mais sur la grande majorité des sites pour des clients, il est demandé d'avoir des intéractions pour montrer nos réalisations, travaux, produits. Il me semblait donc utile de comprendre un peu comment tout cela fonctionne.
+En effet, un slider n'est pas "révolutionnaire" mais sur la grande majorité des sites pour des clients, il est demandé d'avoir des intéractions pour montrer nos réalisations, travaux, produits. Il me semblait donc utile de comprendre un peu comment tout cela fonctionne et de faire le notre.
 
 ### Qu'est-ce qu'un plugin JQuery ?
 Un plugin JQuery est simplement une nouvelle methode qui utilise des objets JQuery. Pour créer un nouvel objet JQuery, nous devons appeler 
@@ -23,7 +23,8 @@ Un plugin JQuery est simplement une nouvelle methode qui utilise des objets JQue
 JQuery()
 ```
 Qui va hériter des méthodes JQuery.
-L'idée d'un plugin est de faire quelque chose avec une collection d'éléments. Nous pourrions considerer les méthodes existantes comme des plugins 
+L'idée d'un plugin est de faire quelque chose avec une collection d'éléments. Nous pourrions considerer les méthodes existantes comme des plugins : 
+
 ```jquery 
 .fadeOut()
 ```
@@ -58,14 +59,14 @@ Le slider est composé en 2 parties:
 
 #### Créer les buttons
 
-Pour créer les buttons, il faut compter le nombre d'image que possède notre page, la fonction `.each` vous permettra de les compter. Ensuite, j'attribue un id pour chacunes de mes images et je rajoute un boutton contenant le même id. ainsi, les images sont liées au bouttons
+Pour créer les buttons, il faut compter le nombre d'image que possède notre page, la fonction `.each` vous permettra de les compter. Ensuite, j'attribue un id pour chacunes de mes images et je rajoute un boutton contenant le même id. ainsi, les images sont liées au bouttons.
 
 #### Ajouter un événement
 
 Oui, nos boutons sont généré mais ils ne font rien, nous allons ajouter un événement `.click` sur laquel nous effectuerons plusieurs actions:
-- Récupèrer le lien de l'image que nous voulons afficher
-- Afficher l'image choisie
-- Masquer l'image actuelle
+- récupèrer le lien de l'image que nous voulons afficher
+- afficher l'image choisie
+- masquer l'image actuelle
 
 Pour le faire, je me suis basé sur une classe css qui affiche les images et par défaut, je masque les autres. 
 
@@ -75,7 +76,7 @@ Voici quelques fonctions que j'ai utilisé :
 [`.fadeIn()`](http://api.jquery.com/fadein/)
 [`.fadeOut()`](http://api.jquery.com/fadeout/)
 
-Si vous n'êtes pas à l'aise avec ces fonctions, je vous convie d'aller lire la documentation à ce sujet sur le site officiel de JQuery
+Si vous n'êtes pas à l'aise avec ces fonctions, je vous convie d'aller lire la documentation à ce sujet sur le site officiel de JQuery.
 
 #### Timer sur les images
 
@@ -92,7 +93,7 @@ Si il faut quelques indications, voici quelque chose qui aidera ceux avec un peu
 - [Pourquoi les plugins JQuery](https://www.sitepoint.com/why-we-develop-jquery-plugins/)
 
 ## Résumé
-Cet exercice propose la création d'un plugin basique pour créer votre propre plugins pour différents sites web. Il est aussi possible de le faire en vanillajs mais ce n'est pas le but de cet exercice.
+Cet exercice propose la création d'un plugin basique afin de créer votre propre plugins pour différents sites web. Il est aussi possible de le faire en vanillajs mais ce n'est pas le but de cet exercice.
 
 
 ## Références supplémentaires
