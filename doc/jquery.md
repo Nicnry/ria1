@@ -5,6 +5,8 @@ Mon travail va porter sur les plugins JQuery.
 
 ## Lien avec RIA
 
+Le lien avec RIA n'est pas très très fort, mais il permet de rajouter quelque chose d'intéractif pour le visiteur et lui faire plaisir de voir notre beau site web.
+
 ## Description de la problématique et du contexte
 
 ### Pourquoi faire un plugin ?
@@ -84,11 +86,9 @@ Si il faut quelques indications, voici quelque chose qui aidera ceux avec un peu
 
 ## Références théoriques
 - [Comment créer un plugin Jquery](https://learn.jquery.com/plugins/basic-plugin-creation/)
-https://learn.jquery.com/plugins/stateful-plugins-with-widget-factory/
-https://stackoverflow.com/questions/27386233/why-use-jquery-plugins-over-javascript-functions
-https://j11y.io/javascript/why-create-a-jquery-plugin/
-https://www.synbioz.com/blog/plugin_jquery
-
+- [Pourquoi utiliser un plugin Jquery](https://stackoverflow.com/questions/27386233/why-use-jquery-plugins-over-javascript-functions)
+- [Pourquoi créer un plugin JQuery](https://j11y.io/javascript/why-create-a-jquery-plugin/)
+- [Les bases d'un plugin JQuery (FR)](https://www.synbioz.com/blog/plugin_jquery)
 - [Pourquoi les plugins JQuery](https://www.sitepoint.com/why-we-develop-jquery-plugins/)
 
 ## Résumé
