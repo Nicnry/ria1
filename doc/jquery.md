@@ -42,7 +42,7 @@ $.fn.greenify = function() {
 $( "a" ).greenify();
 ```
 
-Ensuite, tous nos liens deviendront vert.
+Avec ce bout de code, tous nos liens deviendront vert.
 
 | $.fn                 | .greenify       | this.css( "color", "green" ); | $( "a" ).greenify(); |
 |----------------------|-----------------|-------------------------------|----------------------|
@@ -60,14 +60,14 @@ Le slider est composé en 2 parties:
 
 Pour créer les buttons, il faut compter le nombre d'image que possède notre page, la fonction `.each` vous permettra de les compter. Ensuite, j'attribue un id pour chacunes de mes images et je rajoute un boutton contenant le même id. ainsi, les images sont liées au bouttons
 
-#### Ajouter un evenement
+#### Ajouter un événement
 
 Oui, nos boutons sont généré mais ils ne font rien, nous allons ajouter un événement `.click` sur laquel nous effectuerons plusieurs actions:
 - Récupèrer le lien de l'image que nous voulons afficher
 - Afficher l'image choisie
 - Masquer l'image actuelle
 
-Pour le faire, je me suis basé sur une class css qui affiche les images et par défaut, je masque les autres. 
+Pour le faire, je me suis basé sur une classe css qui affiche les images et par défaut, je masque les autres. 
 
 Voici quelques fonctions que j'ai utilisé :
 [`.addClass()`](https://api.jquery.com/addclass/)
@@ -92,7 +92,7 @@ Si il faut quelques indications, voici quelque chose qui aidera ceux avec un peu
 - [Pourquoi les plugins JQuery](https://www.sitepoint.com/why-we-develop-jquery-plugins/)
 
 ## Résumé
-Cet exercice propose la création d'un plugin basique pour créer votre propre plugins pour différents sites web. Il est aussi possible de le faire en vanillajs mais ce n'est pas le but de cet exercice. 
+Cet exercice propose la création d'un plugin basique pour créer votre propre plugins pour différents sites web. Il est aussi possible de le faire en vanillajs mais ce n'est pas le but de cet exercice.
 
 
 ## Références supplémentaires
