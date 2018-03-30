@@ -38,6 +38,7 @@ $( document ).ready( function () {
 
     });
 
+    //Change image on time
     setInterval( function () {
 
       $maxSwitch = $( 'img' ).length;
@@ -58,5 +59,7 @@ $( document ).ready( function () {
     }, 5000);    
 
   };
+
+  //Plugin use
   $( 'img' ).slide();
 });
